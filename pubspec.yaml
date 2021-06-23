@@ -33,7 +33,7 @@ dependencies:
   flutter_chess_board: ^0.9.4
   flutter_html_view: ^0.5.12
   html2md: ^0.3.1
-  badges: ^2.0.1
+  
   # html2md: ^0.3.1
 
 dev_dependencies:

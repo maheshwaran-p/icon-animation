@@ -65,14 +65,14 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.teal,
+      backgroundColor: Colors.black,
 //      appBar: AppBar(
 //        title: Text(widget.title),
 //      ),
       body: Center(
         child: Card(
-          color: Colors.transparent,
-          elevation: 4,
+          color: Colors.white,
+          elevation: 3,
           shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
           margin: EdgeInsets.all(16.0),
           child: Padding(
@@ -83,7 +83,7 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
                 ScaleTransition(
                   scale: _pulseAnimation,
                   child: Container(
-                    // color: Colors.white,
+                    //  color: Colors.white,
                     height: 500,
                     width: 380,
                     child: Icon(
