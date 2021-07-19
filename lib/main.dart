@@ -110,7 +110,7 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
         onPressed: animate,
         tooltip: 'Increment',
         child: _isPlaying ? Icon(Icons.pause) : Icon(Icons.play_arrow),
-      ), // This trailing comma makes auto-formatting nicer for build methods.
+      ),
     );
   }
 }
